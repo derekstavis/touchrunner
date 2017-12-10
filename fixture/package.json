@@ -1,0 +1,13 @@
+{
+  "name": "fixture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "foobar": "echo foobar",
+    "quxcux": "echo quxcux"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
