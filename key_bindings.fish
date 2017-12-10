@@ -1,3 +1,7 @@
 for n in (seq 20)
-  bind -M insert -k f$n "__touchrunner_keydown $n"
+  if test "$__fish_active_key_bindings" = fish_vi_key_bindings
+    bind -M insert -k f$n "__touchrunner_keydown $n"
+  else
+    bind -k f$n "__touchrunner_keydown $n"
+  end
 end
