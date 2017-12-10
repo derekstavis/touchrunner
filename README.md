@@ -19,6 +19,12 @@ $ omf install npm-touchbar
 
 ## Usage
 
+First you should be running iTerm 2.
+
+Then edit the touch bar (View -> Customize Touch Bar) to have only "Function keys" block.
+
+Then you just need to enter a directory with a `package.json` and the tasks will appear at the touch bar.
+
 ![Touchrunner demo](touchrunner.gif "Touchrunner demo")
 
 # License
