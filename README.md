@@ -10,22 +10,26 @@
 <br/>
 
 
-## Install
+## Installing
 
 ```fish
-$ omf install npm-touchbar
+$ omf install touchrunner
 ```
 
+## What will you get
+
+![Touchrunner demo](touchrunner.gif "Touchrunner demo")
+
+## Requirements
+
+1. Have **Oh My Fish** installed. For more information, check [here](https://github.com/oh-my-fish/oh-my-fish#installation).
+1. Be using **iTerm2**, for Touch Bar support.
 
 ## Usage
 
-First you should be running iTerm 2.
-
-Then edit the touch bar (View -> Customize Touch Bar) to have only "Function keys" block.
-
-Then you just need to enter a directory with a `package.json` and the tasks will appear at the touch bar.
-
-![Touchrunner demo](touchrunner.gif "Touchrunner demo")
+1. Edit the Touch Bar (View -> Customize Touch Bar) to have only "Function keys" block.
+1. Enter a directory with a `package.json` and the tasks will appear at the touch bar.
+1. Exitting the directory makes the Touch Bar be restored to function keys.
 
 # License
 
