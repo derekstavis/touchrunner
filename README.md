@@ -31,6 +31,15 @@ $ omf install touchrunner
 1. Enter a directory with a `package.json` and the tasks will appear at the touch bar.
 1. Exitting the directory makes the Touch Bar be restored to function keys.
 
+## Configuration
+
+By default touchrunner will use `npm run`. If you want to switch the task
+runner, you can override via `touchrunner_command` global variable, eg.:
+
+```fish
+set -g touchrunner_command yarn
+```
+
 # License
 
 [MIT][mit] © [Derek Stavis][author]
