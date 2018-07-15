@@ -1,4 +1,7 @@
 function __touchrunner
+  test -f "package.json"
+    or return
+
   set -l tasks (__touchrunner_list_tasks)
   set key 1
 
