@@ -5,7 +5,7 @@ function __touchrunner_list_tasks
 
   if test "$stat" != "$__touchrunner_mtime"
     set -g __touchrunner_mtime $stat
-    set -g __touchrunner_packages (node -e "$__touchrunner_script" ^/dev/null)
+    set -g __touchrunner_packages (node -e "$__touchrunner_script" 2>/dev/null)
   end
 
   printf "%s\n" $__touchrunner_packages
